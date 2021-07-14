@@ -1,0 +1,44 @@
+/* Your custom css code goes here */
+.space-between {
+  display: flex; /* establish flex container */
+  flex-direction: row; /* default value; can be omitted */
+  flex-wrap: nowrap; /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-start > * {
+  margin: 5px; /* and that, will result in a 10px gap */
+}
+
+.no-margin * {
+  margin: 0 0 0 0;
+}
+
+.list-link i {
+  color: azure;
+}
+
+.list-link i:hover {
+  color: white;
+}
+
+.nomor{
+  /* padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px; */
+  padding: 0 0 0 0;
+  width: 30px;
+  height: 30px;
+  /* margin: 2px 2px 2px 2px; */
+}
+
+.uploaded-pic{
+  max-height: 120px;
+  margin-top: 8px;
+}
